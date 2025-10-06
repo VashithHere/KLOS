@@ -1,0 +1,2 @@
+# [TASK 4] Set Backup File Name
+backupFileName="backup-$currentTS.tar.gz"
