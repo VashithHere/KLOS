@@ -1,0 +1,2 @@
+# [TASK 11] Add File to toBackup Array
+toBackup+=("$file")
