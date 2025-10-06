@@ -1,0 +1,2 @@
+# [TASK 9] List All Files and Directories
+allFiles=$(find . -type f)
