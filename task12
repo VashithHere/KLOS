@@ -1,0 +1,7 @@
+# [TASK 12] Create Backup File
+if [ ${#toBackup[@]} -eq 0 ]; then
+    echo "No files updated in the past 24 hours."
+else
+    tar -czf "$backupFileName" "${toBackup[@]}"
+    echo "Backup file created: $backupFileName"
+fi
