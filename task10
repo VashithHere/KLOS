@@ -1,0 +1,9 @@
+# [TASK 10] IF Statement to Check Updated Files
+toBackup=()
+for file in $allFiles; do
+    fileTS=$(date -r "$file" +%s)
+    if [ "$fileTS" -ge "$yesterdayTS" ]; then
+        # [TASK 11] Add File to toBackup Array
+        toBackup+=("$file")
+    fi
+done
