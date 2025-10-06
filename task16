@@ -1,0 +1,2 @@
+./backup.sh
+ls /home/student/backups
