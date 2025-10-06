@@ -1,0 +1,2 @@
+# [TASK 8] Set Yesterday Timestamp
+yesterdayTS=$((currentTS - 86400))
