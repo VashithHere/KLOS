@@ -1,0 +1,2 @@
+# [TASK 7] Change Directory
+cd "$targetDirectory" || { echo "Failed to change directory to $targetDirectory"; exit 1; }
