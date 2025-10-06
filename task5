@@ -1,0 +1,2 @@
+# [TASK 5] Define origAbsPath Variable
+origAbsPath=$(realpath "$targetDirectory")
