@@ -1,0 +1,3 @@
+chmod +x backup.sh      # make executable
+./backup.sh             # run it
+ls /home/student/backups  # check backup created
